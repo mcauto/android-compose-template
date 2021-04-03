@@ -11,8 +11,8 @@ android {
         applicationId = "com.deo.compose"
         minSdk = 21
         targetSdk = 30
-        versionCode = 1
-        versionName = "21.0.0"
+        versionCode = 2
+        versionName = "21.1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
