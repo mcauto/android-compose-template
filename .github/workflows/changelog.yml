@@ -17,4 +17,4 @@ jobs:
       - name: Show current changelog
         run: |
           npm ci
-          make current_changelog
+          npx standard-version --dry-run --silent | grep -v Done | grep -v "\-\-\-" | grep -v standard-version
